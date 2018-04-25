@@ -88,8 +88,39 @@ body{
 }
 
 
+.gallery{
+   display: flex;
+  flex-wrap: wrap;
+  background-color: DodgerBlue;
+  justify-content:space-around;
+}
 
-
+div .img{
+  margin:20px 1%;
+  padding:1%;
+  /*margin-top: 10px;*/
+  /*margin-bottom: 10px;*/
+  display :block; 
+  width:auto;
+  float:left;
+  text-align:center;
+  background-color:#F8F8F8;
+  /*box-shadow:3px 3px 5px #444;*/
+}
+div .img img{
+  display:inline;
+  margin-top: 10px;
+}
+div .img a:hover img{
+  opacity:0.45;
+}
+div .desc{
+  font-size:15px;
+  text-transform:capitalize;
+  font-weight:700;
+  text-align:center;
+  width:120px;
+  margin:5px;}
 
 
 /*MEDIA QUERIES*/
